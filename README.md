@@ -2,34 +2,37 @@
 
 # RuruGrab
 
-[English]() | [한국어](#korean-version)
-
----
-
-## 한국어 버전
+[English](###-📌-Prerequisites) | [한국어](####-📌-필수-요구사항)
 
 ### 📌 필수 요구사항
-* 현재 베타 릴리스(2026년 3월 16일 기준)는 **Windows 11 x64**에서만 지원됩니다.
-* 다른 운영 체제(OS) 지원이 필요하신 경우, [GitHub Issues](https://github.com/RuruBros/RuruGrab-Releases/issues)에서 요청해주세요.
+* 현재 베타 릴리스(2026년 4월 기준)는 **Windows 11 x64**에서만 지원됩니다.
+* 기타 운영 체제는 향후 지원 예정입니다.
 
-### 🚀 설치
-1. **앱 다운로드:** `Releases` 탭에서 최신 설치 프로그램(`.exe` 또는 `.msi`)을 다운로드합니다.
-2. **브라우저 확장 프로그램 설치:** *(스토어 정책으로 인한 로컬 저장소 제한으로 수동 설치가 필요합니다)*
-   * 브라우저에서 `chrome://extensions/` 또는 `edge://extensions/`로 이동합니다.
-   * **개발자 모드**를 활성화합니다.
-   * **압축해제된 확장 프로그램 로드** 버튼을 클릭합니다.
-   * RuruGrab 설치 경로의 `extension` 폴더를 선택합니다 (일반적으로 `C:\Users\<YourName>\AppData\Local\RuruGrab`).
+### 🚀 설치 방법 (Installation)
 
-### 🎮 사용 방법
-* **미디어 저장:** 데스크톱 앱을 실행 상태로 유지합니다. X(Twitter), YouTube 또는 Instagram의 비디오나 이미지를 마우스 우클릭하고 **RuruGrab -> Grab**을 선택합니다. *(앱 창을 닫으면 시스템 트레이로 최소화되어 백그라운드에서 실행됩니다).*
-* **메타데이터 설정:**
-  1. 앱을 열고 **System > Settings**로 이동한 후 **METADATA**를 **ON**으로 전환합니다.
-  2. **System > Providers**로 이동하여 필요한 공급자를 활성화합니다.
-  3. **Download > Metadata** 탭에서 항목을 검색합니다.
-  4. 로컬 저장소에 결과가 없으면 **"Let the cat scout"** 버튼을 클릭합니다. 웹에서 데이터를 가져와 자동으로 PC에 저장합니다.
+1. **데스크톱 앱 설치**
+   * [Releases] 탭에서 최신 설치 파일(`.exe` 또는 `.msi`)을 다운로드(**Download**)합니다.
 
-### 🔄 업데이트 및 🐛 버그 리포트
-* **업데이트:** 새 버전이 릴리스되면 새로 다운로드한 실행 파일로 기존 파일을 덮어씌우기만 하면 됩니다. 설정 파일은 안전하게 유지됩니다.
+2. **브라우저 확장 프로그램(Extension) 수동 설치**
+   * 브라우저 주소창에 `chrome://extensions/` 또는 `edge://extensions/` 입력 후 접속합니다.
+   * **개발자 모드(Developer mode)**를 활성화합니다.
+   * **압축해제된 확장 프로그램 로드(Load unpacked)** 버튼을 클릭합니다.
+   * RuruGrab이 설치된 경로 내의 `extension` 폴더를 선택합니다. 
+     *(경로 예시: `C:\Users\<사용자명>\AppData\Local\RuruGrab`)*
+
+### 🎮 주요 기능 및 사용법 (How to Use)
+
+* **미디어 저장 (Grab)**
+  * 앱을 실행한 상태에서 X(Twitter), YouTube, Instagram의 이미지나 영상을 우클릭합니다.
+  * **RuruGrab -> Grab** 메뉴를 선택하여 저장합니다.
+  * 앱 창을 닫아도 **시스템 트레이(System Tray)**에서 백그라운드로 계속 실행됩니다.
+
+* **메타데이터(Metadata) 설정**
+  1. `System > Settings`에서 **METADATA** 옵션을 **ON**으로 켭니다.
+  2. `System > Providers`에서 필요한 공급자를 활성화합니다.
+  3. 로컬 데이터가 없을 경우 **"Let the cat scout"** 버튼을 클릭하면 웹에서 데이터를 수집하여 자동 저장합니다.
+
+### 🐛 버그 리포트
 * **버그 리포트:** 버그나 기능 요청은 [GitHub Issues](https://github.com/RuruBros/RuruGrab-Releases/issues)에 보고해주세요.
 
 ---
