@@ -2,8 +2,6 @@
 
 # RuruGrab
 
-[English](###-📌-Prerequisites) | [한국어](####-📌-필수-요구사항)
-
 ### 📌 필수 요구사항
 * 현재 베타 릴리스(2026년 4월 기준)는 **Windows 11 x64**에서만 지원됩니다.
 * 기타 운영 체제는 향후 지원 예정입니다.
@@ -34,31 +32,3 @@
 
 ### 🐛 버그 리포트
 * **버그 리포트:** 버그나 기능 요청은 [GitHub Issues](https://github.com/RuruBros/RuruGrab-Releases/issues)에 보고해주세요.
-
----
-
-## English Version
-
-### 📌 Prerequisites
-* The current beta release (as of March 16, 2026) is built specifically for **Windows 11 x64**.
-* If you need support for other operating systems (OS), please request it on [GitHub Issues](https://github.com/RuruBros/RuruGrab-Releases/issues).
-
-### 🚀 Installation
-1. **Download the App:** Download the latest installer (`.exe` or `.msi`) from the `Releases` tab.
-2. **Install the Browser Extension:** *(Manual installation is required due to store policies for local storage)*
-   * Navigate to `chrome://extensions/` or `edge://extensions/` in your browser.
-   * Turn on **Developer mode**.
-   * Click the **Load unpacked** button.
-   * Select the `extension` folder located in your RuruGrab installation path (usually `C:\Users\<YourName>\AppData\Local\RuruGrab`).
-
-### 🎮 How to Use
-* **Saving Media:** Keep the desktop app running. Right-click on the video or image you want from X (Twitter), YouTube, or Instagram in your browser, and select **RuruGrab -> Grab**. *(Closing the app window minimizes it to the system tray for background execution).*
-* **Metadata Setup:**
-  1. Open the app and go to **System > Settings**, then toggle **METADATA** to **ON**.
-  2. Go to **System > Providers** and turn on the providers you need.
-  3. Search for items in the **Download > Metadata** tab.
-  4. If there are no results in your local storage, click the **"Let the cat scout"** button. It will fetch data from the web and automatically save it to your PC.
-
-### 🔄 Update & 🐛 Bug Report
-* **Update:** When a new version is released, simply overwrite the existing executable file with the newly downloaded one. Your configuration files will be kept safe.
-* **Bug Report:** Please report any bugs or feature requests on [GitHub Issues](https://github.com/RuruBros/RuruGrab-Releases/issues).
