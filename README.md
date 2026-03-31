@@ -1,6 +1,8 @@
-# RuruGrab 설치 및 사용 가이드
+![GitHub Release](https://img.shields.io/github/v/release/RuruBros/RuruGrab-Releases)
 
-[English](#english-version) | [한국어](#korean-version)
+# RuruGrab
+
+[English]() | [한국어](#korean-version)
 
 ---
 
