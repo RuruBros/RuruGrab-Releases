@@ -7,46 +7,47 @@
 
 **言語:** [English](README.md) | [한국어](README.ko-KR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
-RuruGrab は、収集・整理・再検索を 1 か所で行うための local-first な Windows アプリです。
+RuruGrab は、集める・整理する・探し直すという流れを 1 つにまとめた、ローカルファーストの Windows アプリです。
 
-ファイル管理、一括リネーム、重複ファイル検出、Web テキスト抽出、暗号化 Vault ノート、複数ドライブを横断するカタログ型ブラウズを 1 つのワークスペースにまとめています。
+ファイル整理、連番・一括リネーム、重複ファイル検出、Web テキスト抽出、暗号化された Vault メモ、複数ドライブを横断する OneSpace ブラウズを、ひとつのワークスペースにまとめています。
 
-## 機能
+## 主な機能
 
-- **ファイル管理 (File Management)**
-  - ルールベースのファイル整理
-  - ファイルの一括リネーム
-  - 重複ファイルの検出
+- **ファイル管理**
+  - ルールベースでファイルを整理
+  - ファイル名を一括変更
+  - 重複ファイルを検出
 
 - **OneSpace**
-  - 複数ドライブのファイルを 1 つのカタログ型ビューで閲覧
+  - 複数ドライブのファイルを 1 つの画面で閲覧
+  - 分散したファイルをまとめて扱いやすくする
 
-- **Web テキスト抽出 (Web Text Extraction)**
-  - Web テキストを Markdown として抽出
-  - 保存した内容を後から検索可能
+- **Web Capture**
+  - Web ページのテキストを Markdown として抽出
+  - 保存した内容をあとから検索
 
 - **Vault**
-  - ローカル専用の暗号化ノート
-  - マスターパスワードによるアクセス制御
+  - 秘密メモをローカルに暗号化して保存
+  - マスターパスワードで保護
 
-- **ブラウザー連携 (Browser Companion)**
-  - Chrome / Edge 対応
+- **ブラウザ連携**
+  - Chrome / Edge に対応
   - 対応コンテンツをデスクトップアプリへ送信
 
 ## インストール
 
-1. [Releases](../../releases/latest) ページを開く
-2. 最新のインストーラーをダウンロード
-3. インストールして RuruGrab を起動
+### デスクトップアプリ
+1. [Releases](../../releases/latest) ページを開きます
+2. 最新のインストーラーをダウンロードします
+3. インストールして RuruGrab を起動します
 
-### ブラウザー拡張機能 (Browser Extension)
+### ブラウザ拡張
+1. `chrome://extensions/` または `edge://extensions/` を開きます
+2. **Developer mode** を有効にします
+3. **Load unpacked** をクリックします
+4. インストール済み RuruGrab フォルダ内の `extension` フォルダを選択します
 
-1. `chrome://extensions/` または `edge://extensions/` を開く
-2. **Developer mode** を有効化
-3. **Load unpacked** をクリック
-4. インストール先の RuruGrab ディレクトリ内にある `extension` フォルダーを選択
-
-パス例:
+例:
 
 ```text
 C:\Users\<YourUserName>\AppData\Local\RuruGrab
@@ -54,6 +55,13 @@ C:\Users\<YourUserName>\AppData\Local\RuruGrab
 
 ## 補足
 
-- Windows 11 x64 専用
-- 現在ベータ版として開発中
-- フィードバックやバグ報告は [Issues](../../issues) へお願いします
+- RuruGrab は現在ベータ版として開発を続けています
+- 一部のツールは任意機能で、手動設定が必要な場合があります
+
+## フィードバック
+
+不具合報告や機能提案は [Issues](../../issues) までお願いします。
+
+## ダウンロード
+
+最新ビルドは [Releases](../../releases/latest) ページから入手できます。

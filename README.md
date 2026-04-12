@@ -9,7 +9,7 @@
 
 RuruGrab is a local-first Windows app for collecting, organizing, and finding things again.
 
-It combines file management, batch rename, duplicate detection, web text extraction, encrypted vault notes, and catalog-style multi-drive browsing in one workspace.
+It brings together file management, batch rename, duplicate detection, web text extraction, encrypted vault notes, and catalog-style multi-drive browsing in one workspace.
 
 ## Features
 
@@ -19,15 +19,16 @@ It combines file management, batch rename, duplicate detection, web text extract
   - find duplicate files
 
 - **OneSpace**
-  - browse files across multiple drives in one catalog-style view
+  - browse files across multiple drives in one unified view
+  - work with scattered files more comfortably
 
-- **Web Text Extraction**
-  - extract web text into Markdown
-  - save and search collected content later
+- **Web Capture**
+  - extract text from web pages into Markdown
+  - save and search captured content later
 
 - **Vault**
-  - local-only encrypted notes
-  - master password based access
+  - keep private notes encrypted on your machine
+  - protected by a master password
 
 - **Browser Companion**
   - works with Chrome and Edge
@@ -35,12 +36,12 @@ It combines file management, batch rename, duplicate detection, web text extract
 
 ## Installation
 
-1. Go to the [Releases](../../releases/latest) page
+### Desktop App
+1. Open the [Releases](../../releases/latest) page
 2. Download the latest installer
 3. Install and launch RuruGrab
 
 ### Browser Extension
-
 1. Open `chrome://extensions/` or `edge://extensions/`
 2. Enable **Developer mode**
 3. Click **Load unpacked**
@@ -54,6 +55,13 @@ C:\Users\<YourUserName>\AppData\Local\RuruGrab
 
 ## Notes
 
-- Windows 11 x64 only
-- Active beta development
-- Feedback and bug reports are welcome in [Issues](../../issues)
+- RuruGrab is currently in active beta development
+- Some tools are optional and may require manual setup
+
+## Feedback
+
+Bug reports and feature requests are welcome in [Issues](../../issues).
+
+## Download
+
+Get the latest build from the [Releases](../../releases/latest) page.
