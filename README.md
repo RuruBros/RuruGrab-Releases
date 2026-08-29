@@ -50,7 +50,7 @@ Release downloads are relatively large because RuruGrab bundles the media tools 
 | SOOP | VOD player pages and supported VOD aliases |
 | iMBC, Naver TV, CHZZK, PandaLive, Facebook | Supported video or live-page routes |
 | X / Twitter, Instagram, Pinterest, Pixiv | Media and gallery routes |
-| RidiBooks, Munpia, generic HTML pages | Text extraction to Markdown |
+| Supported web pages | Text extraction to Markdown |
 | Magnet links and `.torrent` files | Preview, file selection, limits, and local download |
 | WebDAV, SFTP, FTP, FTPS | Remote browsing and queued file transfer |
 
