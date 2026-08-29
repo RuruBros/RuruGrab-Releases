@@ -3,7 +3,6 @@
 [![Latest release](https://img.shields.io/github/v/release/RuruBros/RuruGrab-Releases?display_name=tag&sort=semver)](https://github.com/RuruBros/RuruGrab-Releases/releases/latest)
 [![Total downloads](https://img.shields.io/github/downloads/RuruBros/RuruGrab-Releases/total)](https://github.com/RuruBros/RuruGrab-Releases/releases)
 ![Platforms](https://img.shields.io/badge/platform-Windows%20x64%20%7C%20macOS%20Apple%20Silicon-2563eb)
-![Status](https://img.shields.io/badge/status-beta-f59e0b)
 ![App languages](https://img.shields.io/badge/app-EN%20%7C%20KO%20%7C%20JA%20%7C%20ZH--CN%20%7C%20ES%20%7C%20PT--BR-16a34a)
 
 **Language guides:** English · [한국어](https://rurubros.org/rurugrab/?lang=ko) · [日本語](https://rurubros.org/rurugrab/?lang=ja) · [简体中文](https://rurubros.org/rurugrab/?lang=zh-CN) · [Español](https://rurubros.org/rurugrab/?lang=es) · [Português (Brasil)](https://rurubros.org/rurugrab/?lang=pt-BR)
